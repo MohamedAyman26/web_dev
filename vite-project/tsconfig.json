@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5", // إصدار ECMAScript الهدف
+    "lib": ["dom", "dom.iterable", "esnext"], // المكتبات التي تريد تضمينها
+    "allowJs": true, // السماح بملفات JavaScript
+    "skipLibCheck": true, // تخطي فحص المكتبات
+    "strict": true, // تفعيل جميع خيارات التحقق الصارمة
+    "forceConsistentCasingInFileNames": true, // الحفاظ على حالة أسماء الملفات
+    "noEmit": true, // عدم كتابة ملفات الإخراج
+    "esModuleInterop": true, // تمكين التوافق مع وحدات ES
+    "module": "esnext", // نوع الوحدة
+    "moduleResolution": "node", // طريقة حل الوحدات
+    "resolveJsonModule": true, // تمكين استيراد ملفات JSON
+    "isolatedModules": true, // تمكين الوحدات المعزولة
+    "jsx": "react-jsx" // نوع JSX المستخدم
+  },
+  "include": ["src"] // تضمين مجلد src
+}
